@@ -42,15 +42,28 @@ newItem('assets/sword.png', '500px', '405px');          //Loading sword
 newItem('assets/staff.png', '600px', '100px');          //Loading staff 
 
 
-//BONUS 
-function backgroundImage(){
-let backgroundImage = document.createElement('img')
-backgroundImage.src = 'assets/grass.png'
-backgroundImage.style.position = 'fixed'
-backgroundImage.style.left = '100px'
-backgroundImage.style.bottom = '0'
-document.body.append(backgroundImage)
+//BONUS ---- UNFINISHED, SAVING TO WORK ON IT LATER 
+
+/*
+function grassImage(imagesrc, posX, posY){
+let grassImage = document.createElement('img')
+grassImage.src = imagesrc
+grassImage.style.position = 'fixed'
+grassImage.style.left = posX + 'px'
+grassImage.style.bottom = posY + 'px'
+document.body.append(grassImage)
 }
 
-backgroundImage();
+backgroundImage('assets/grass.png', '100', '100' )
 
+// need a nested for loop outer will go vertical inner will do horizontal. add if to contiue with sky
+//check order in which you load the background
+/*
+for (let i = 0; i< 18; i++){
+    
+    let posX=0 + 'px';
+    
+    posX + 100;
+
+}
+*/
